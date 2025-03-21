@@ -1,9 +1,8 @@
-```markdown
 # Custom ML Metrics Implementation
 
 Repozytorium zawiera własne implementacje metryk oceny modeli ML.
 
-## 📊 Dostępne metryki
+## Dostępne metryki
 
 ### Metryki Regresji (`regression.py`)
 ```python
@@ -37,7 +36,7 @@ def train_test_split(X, y, test_size=0.2):
 - [ ] Losowe tasowanie
 - [ ] Stratyfikacja
 
-## 🛠 Jak użyć
+## Jak użyć
 
 1. Zaimportuj potrzebne metryki:
 ```python
@@ -50,17 +49,16 @@ mae = mean_absolute_error(y_true, y_pred)
 print(f"MAE: {mae:.2f}")
 ```
 
-## 🔍 Testowanie
+## Testowanie
 ```bash
 # Uruchom testy jednostkowe
 python -m pytest tests/test_metrics.py
 ```
 
-## 📝 Plan rozwoju
+## Plan rozwoju
 - Dodanie metryk klasyfikacji
 - Implementacja cross-validation
 - Obsługa danych wielowymiarowych
 
-## 📜 Licencja
+## Licencja
 Kod dostępny na licencji MIT. Więcej szczegółów w pliku LICENSE.
-```
